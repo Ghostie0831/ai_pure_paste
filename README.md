@@ -13,6 +13,7 @@
 
 ## 🚀 核心功能
 - **告别繁琐的 `Cmd+Shift+V` 快捷键**：无需再强迫自己使用麻烦的“无格式粘贴”快捷键！现在只需像往常普通粘贴一样按下 `Cmd+V` (或 `Ctrl+V`)，插件就能自动拦截并清除剪贴板富文本中的冗余样式与无用图片，直击用户痛点。
+- **智能处理图文混合粘贴**：当复制的内容同时包含文本和实体图片时，插件能聪明地剔除富文本格式，但同时将真正的图片完好无损地放行，实现真正的图文并茂，绝不误伤！
 - **保留文本换行**：在剔除干扰格式的同时，完美保留文档原本的段落结构和换行符，无论是粘贴代码还是长文都极度舒适。
 - **多平台探测**：预设匹配目前主流各家 AI 对话平台网址（需注意仅保障 Gemini 平台当前完美可用，其他平台功能视网页结构而定）。
 
@@ -37,6 +38,7 @@ This is a browser extension specifically crafted for AI chat tools. Its function
 
 ## 🚀 Core Features
 - **Say Goodbye to the `Cmd+Shift+V` Shortcut**: No need to force yourself to use the cumbersome "paste as plain text" shortcut anymore! Just use your normal `Cmd+V` (or `Ctrl+V`), and the extension will automatically intercept and clean redundant styles and useless images from the clipboard's rich text, directly addressing this common pain point.
+- **Smart Mixed Text & Image Handling**: When your copied content contains both text and actual images, the extension smartly strips away the rich text formatting but seamlessly allows the genuine images to be pasted into the chat. Visuals and text, perfectly intact without mistaken deletions!
 - **Preserves Line Breaks**: While stripping away distracting formats, it perfectly preserves original paragraph structures and line breaks, making it exceptionally comfortable for pasting code or lengthy articles.
 - **Multi-Platform Probing**: Pre-configured to activate on major AI chat platform URLs (Note again that currently only Gemini is fully supported; functionality on other platforms depends on their specific web structures).
 
