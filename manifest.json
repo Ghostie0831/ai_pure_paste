@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "AI 纯净粘贴 - 聊天助手必备",
+  "version": "1.0",
+  "description": "专为 AI 聊天（ChatGPT/Gemini/Claude等）打造。自动清除从 Word、网页复制附带的多余格式与图片，只保留干净纯文本，对话更纯粹！",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://chatgpt.com/*",
+        "*://chat.openai.com/*",
+        "*://gemini.google.com/*",
+        "*://claude.ai/*",
+        "*://kimi.moonshot.cn/*",
+        "*://yiyan.baidu.com/*",
+        "*://tongyi.aliyun.com/*",
+        "*://*.poe.com/*",
+        "*://copilot.microsoft.com/*",
+        "*://*.perplexity.ai/*",
+        "*://yuanbao.tencent.com/*",
+        "*://chatglm.cn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
